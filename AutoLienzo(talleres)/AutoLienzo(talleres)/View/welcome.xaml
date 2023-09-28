@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AutoLienzo_talleres.View.welcome">
+
+   
+    <Grid >
+        <Image Source="https://mitsubishi-motors.com.co/blog/wp-content/uploads/2023/04/mecanico-revisando-vehiculo.jpg" Aspect="AspectFill" />
+
+        <BoxView Color="Transparent" Opacity="0.7">
+            <BoxView.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="Orange" Offset="0" />
+                    <GradientStop Color="Black" Offset="1" />
+                </LinearGradientBrush>
+            </BoxView.Background>
+        </BoxView>
+        <Grid>
+            <Image Margin="0,0,0,500" Source="https://automotorsmx.com/wp-content/uploads/2020/08/taller-automotriz-en-queretaro-automotors-2.png" />
+
+            <Grid>
+                <Button  FontAttributes="Bold" FontSize="16"  TextColor="Black" Text="Log in" BackgroundColor="Orange" Margin="50,550,50,30" CornerRadius="20"></Button>
+                <Grid VerticalOptions="EndAndExpand">
+                    <Grid HorizontalOptions="Center">
+                        <Label Margin="6,550,50,30" Text="¿No tienes una cuenta?"/>
+                        <Label  Margin="100,550,80,30"   Text="Regístrate"/>
+                    </Grid>
+                </Grid>
+            </Grid>
+            
+        </Grid>
+        
+    </Grid>
+  
+
+</ContentPage>

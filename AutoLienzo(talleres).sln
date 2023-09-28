@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoLienzo_talleres.Android", "AutoLienzo(talleres)\AutoLienzo(talleres).Android\AutoLienzo_talleres.Android.csproj", "{23592190-07C8-45B3-B4D6-57A4B99767CA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoLienzo_talleres", "AutoLienzo(talleres)\AutoLienzo(talleres)\AutoLienzo_talleres.csproj", "{9D516A3C-76F3-4388-89D3-0DF2EF5E1C58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23592190-07C8-45B3-B4D6-57A4B99767CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23592190-07C8-45B3-B4D6-57A4B99767CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23592190-07C8-45B3-B4D6-57A4B99767CA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{23592190-07C8-45B3-B4D6-57A4B99767CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23592190-07C8-45B3-B4D6-57A4B99767CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23592190-07C8-45B3-B4D6-57A4B99767CA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{9D516A3C-76F3-4388-89D3-0DF2EF5E1C58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D516A3C-76F3-4388-89D3-0DF2EF5E1C58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D516A3C-76F3-4388-89D3-0DF2EF5E1C58}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9D516A3C-76F3-4388-89D3-0DF2EF5E1C58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D516A3C-76F3-4388-89D3-0DF2EF5E1C58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D516A3C-76F3-4388-89D3-0DF2EF5E1C58}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C02D2ECE-7288-4148-BB75-D0D8DD787CF8}
+	EndGlobalSection
+EndGlobal

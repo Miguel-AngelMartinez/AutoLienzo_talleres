@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AutoLienzo_talleres_.MainPage">
+
+    <Grid BackgroundColor="White">
+        <StackLayout VerticalOptions="Center">
+        <Image Source="https://automotorsmx.com/wp-content/uploads/2020/08/taller-automotriz-en-queretaro-automotors-2.png" />
+        <Label Text="AutoLienzo" HorizontalOptions="Center" TextColor="Black" />
+        <Label x:Name="Lbl_cargando" Text="cargando..." HorizontalOptions="Center" TextColor="Black"/>
+        </StackLayout>
+    </Grid>
+</ContentPage>
