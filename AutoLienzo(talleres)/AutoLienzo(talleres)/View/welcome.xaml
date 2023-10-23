@@ -19,15 +19,10 @@
             <Image Margin="0,0,0,500" Source="https://automotorsmx.com/wp-content/uploads/2020/08/taller-automotriz-en-queretaro-automotors-2.png" />
 
             <Grid>
-                <Button  FontAttributes="Bold" FontSize="16"  TextColor="Black" Text="Log in" BackgroundColor="Orange" Margin="50,550,50,30" CornerRadius="20"></Button>
-                <Grid VerticalOptions="EndAndExpand">
-                    <Grid HorizontalOptions="Center">
-                        <Label Margin="6,550,50,30" Text="¿No tienes una cuenta?"/>
-                        <Label  Margin="100,550,80,30"   Text="Regístrate"/>
-                    </Grid>
-                </Grid>
+                <Button  FontAttributes="Bold" FontSize="16"  TextColor="Black" Text="Log in" BackgroundColor="Orange" Margin="50,550,50,30" CornerRadius="20" x:Name="button" Clicked="button_Clicked"></Button>
             </Grid>
-            
+           
+
         </Grid>
         
     </Grid>

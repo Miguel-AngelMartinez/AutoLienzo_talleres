@@ -14,7 +14,21 @@ namespace AutoLienzo_talleres.View
     {
         public welcome()
         {
+            NavigationPage.SetHasNavigationBar(this, false);
             InitializeComponent();
+        }
+
+         async private void button_Clicked(object sender, EventArgs e)
+        {
+            await screenAsync();
+        }
+
+      
+         
+        
+        public async Task screenAsync()
+        {
+            await Navigation.PushAsync(new loggin());
         }
     }
 }

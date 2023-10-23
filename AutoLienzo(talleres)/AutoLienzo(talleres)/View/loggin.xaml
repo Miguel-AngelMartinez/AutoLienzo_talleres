@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AutoLienzo_talleres.View.loggin">
+
+    <Grid>
+        <Image Source="https://mitsubishi-motors.com.co/blog/wp-content/uploads/2023/04/mecanico-revisando-vehiculo.jpg" Aspect="AspectFill" />
+        <BoxView Color="Transparent" Opacity="0.7">
+            <BoxView.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="Orange" Offset="0" />
+                    <GradientStop Color="Black" Offset="1" />
+                </LinearGradientBrush>
+            </BoxView.Background>
+        </BoxView>
+        <Grid>
+            <Image Margin="0,0,0,580" Source="https://automotorsmx.com/wp-content/uploads/2020/08/taller-automotriz-en-queretaro-automotors-2.png" />
+        </Grid>
+
+        <Frame Margin="40,110,40,30" BackgroundColor="White" CornerRadius="20" BorderColor="Gray" HasShadow="True">
+
+            <Grid>
+                <Grid Margin="13,0,13,0" Padding="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Button  HorizontalOptions="Center" BackgroundColor="Orange" Text="Log in" TextColor="Black" CornerRadius="20" Grid.Column="0"></Button>
+                    <Button HorizontalOptions="Center" BackgroundColor="Gray" Text="Registro" TextColor="White" CornerRadius="20" Grid.Column="1"></Button>
+
+                </Grid>
+
+                <Grid Margin="30,100,20,0" Padding="10">
+                    <Label FontAttributes="Bold"  FontSize="14" TextColor="Black" Text="Bienvenido a Auto Lienzo"/>
+                </Grid>
+
+                <Grid Margin="30,130,20,0" Padding="10" x:Name="taller">
+                    <ScrollView>
+                        <StackLayout>
+                            <Frame CornerRadius="5">
+                                <Entry  FontSize="14" TextColor="Black" Placeholder="Ingresar Nombre" PlaceholderColor="Gray"/>
+                            </Frame>
+                            <Frame CornerRadius="5">
+                                <Entry  FontSize="14" TextColor="Black" Placeholder="Ingresar Direccion" PlaceholderColor="Gray"/>
+                            </Frame>
+                            <Frame CornerRadius="5">
+                                <Entry Keyboard="Numeric" FontSize="14" TextColor="Black" Placeholder="ej. 5518992846" PlaceholderColor="Gray"/>
+                            </Frame>
+                            <Frame CornerRadius="5">
+                                <Entry  FontSize="14" TextColor="Black" Placeholder="Ingresar Telefono" PlaceholderColor="Gray"/>
+                            </Frame>
+                            <Frame CornerRadius="5">
+                                <Entry  FontSize="14" TextColor="Black" Placeholder="Taller Principal" PlaceholderColor="Gray"/>
+                            </Frame>
+                            <Frame CornerRadius="5">
+                                <Entry  FontSize="14" TextColor="Black" Placeholder="Ingresar Direccion" PlaceholderColor="Gray"/>
+                            </Frame>
+                            <Frame CornerRadius="5">
+                                <Entry Keyboard="Email"  FontSize="14" TextColor="Black" Placeholder="Ingresar Correo" PlaceholderColor="Gray"/>
+                            </Frame>
+                            <Frame CornerRadius="5">
+                                <Entry FontSize="14" TextColor="Black" Placeholder="Ingresar contraseña" PlaceholderColor="Gray"/>
+                            </Frame>
+                        </StackLayout>
+                    </ScrollView>
+                    
+                </Grid>
+
+            </Grid>
+           
+        </Frame>
+
+
+
+
+
+
+
+
+    </Grid>
+
+</ContentPage>

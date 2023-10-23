@@ -9,7 +9,7 @@ namespace AutoLienzo_talleres_
         public App()
         {
             InitializeComponent();
-
+            NavigationPage.SetHasNavigationBar(this, false);
             MainPage = new NavigationPage(new MainPage());
         }
 

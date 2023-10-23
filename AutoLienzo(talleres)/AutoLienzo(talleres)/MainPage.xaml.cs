@@ -16,6 +16,7 @@ namespace AutoLienzo_talleres_
         public int segundero=0;
         public MainPage()
         {
+            NavigationPage.SetHasNavigationBar(this, false);
             InitializeComponent();
             InitializeAsync();
         }
